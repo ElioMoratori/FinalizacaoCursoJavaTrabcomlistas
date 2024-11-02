@@ -7,7 +7,7 @@ public class Main {
         Scanner entrada = new Scanner(System.in);
         Saldo saldoCartao = new Saldo();
 
-        System.out.println("Insira o valor do saldo do cartão de crédito:");
+        System.out.println("Insira o valor do saldo do cartão de crédito: ");
         saldoCartao.setSaldo(entrada.nextDouble());
         System.out.println(saldoCartao.getSaldo());
 
